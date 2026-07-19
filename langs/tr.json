@@ -1,0 +1,225 @@
+{
+    "long_name" : "Türkçe",
+    "short_name" : "tr",
+
+    "langfiles_imported" : " > Dil dosyaları başarıyla içeri aktarıldı.",
+    "bot_started" : " > Discord botu ${client.user.tag} kimliği ile başlatıldı.",
+
+    "yes" : "Evet",
+    "no" : "Hayır",
+
+    "error" : "Hata",
+    "warning" : "Uyarı",
+
+    "data" : "Veri",
+    "fun" : "Eğlence",
+    "game" : "Oyun",
+    "info" : "Bilgilendirme",
+    "moderation" : "Moderasyon",
+    "music" : "Müzik",
+    "stats" : "İstatistik",
+
+    "no_reason" : "Sebep girilmedi.",
+    "user_notfound" : "<@${message.author.id}>, kullanıcı bulunamadı.",
+    "must_login_voice" : "Komutu kullanmak için ses kanalına giriş yapmalısın.",
+    "allowed_max_mention" : "<@${message.author.id}>, birden fazla kişiyi etiketleyemezsin.",
+    "user_id_required" : "<@${message.author.id}>, herhangi bir id girmedin.",
+    "file_size_large" : "Dosya boyutu büyük olduğundan paylaşılamadı.",
+    "unvaild_url" : "Geçerli bir bağlantı girmelisiniz.\nÖrnek: %0",
+    "notfound_media" : "Bağlantıdaki medyaya erişilemedi.",
+    "notfound_video" : "Bağlantıdaki videoya erişilemedi.",
+    "error_downloading_data" : "Veri indirilirken bir hata oluştu.",
+
+    "interaction_required_args" : "Gerekli argümanlar girilmedi.",
+    "command_only_support_server" : "<@${message.author.id}>, bu komut sadece botun **discord destek** sunucusunda kullanılabilir.",
+    "command_no_permission" : "<@${message.author.id}>, bu komutu kullanmak için maalesef yetkiniz yok.",
+    "command_inactive" : "Bu komut şu anda aktif değildir.",
+    "command_error" : "Komut çalıştırılırken bir hata oluştu.",
+
+    "button_view_onsite" : "Sitede Görüntüle",
+
+    "join_message_title" : "Hoş geldin!",
+    "join_message_desc_invite_tracker" : "<@${member.user.id}>, **%0** discord sunucusuna hoş geldin.\nDavet eden: <@%1> (**%2** davet)",
+    "join_message_desc_no_tracker" : "<@${member.user.id}>, **%0** discord sunucusuna hoş geldin.",
+    "leave_message_title" : "Görüşürüz!",
+    "leave_message_desc" : "${member.user.tag}, discord sunucusundan ayrıldı.\nAramıza tekrar katılman dileğiyle.",
+
+    "level_up" : "<@%0> level atladı! **Şu anki leveli: %1**",
+
+    "help_desc" : "Bot komutlarını iletir.",
+    "help_bot_commands" : "Bot Komutları",
+    "help_desc_detailed" : "Komut hakkında ayrıntılı bilgi almak için: **${process.env.prefix}yardım** __komut adı__",
+    "help_general_commands" : "Genel Komutlar",
+    "help_rank_commands" : "Rank Komutları",
+    "help_music_commands" : "Müzik Komutları",
+    "help_mod_commands" : "Moderasyon Komutları",
+    "help_invaild_command" : "<@${message.author.id}>, **%0** adında bir komut yok veya komut adı eksik girildi.",
+    "help_command_name" : "Komut adı: ${client.commands.get('%0').name}",
+    "help_category" : "Kategori:",
+    "help_only_owner" : "Herkes kullanabilir mi?",
+    "help_only_support" : "Sadece destek sunucusunda mı aktif?",
+
+    "artstation_click_here" : "Tarayıcıda görüntülemek için [buraya](%0) tıklayın.",
+    "artstation_views" : "Görüntülenme",
+    "artstation_likes" : "Beğeni",
+    "artstation_comments" : "Yorum",
+    "artstation_not_found" : "%0 araması ile ilgili veri yok.",
+    "artstation_nsfw_content" : "Bu resim sadece nsfw paylaşımına izin verilen kanala gönderilebilir.",
+    "artstation_search_found" : "**%0** araması ile ilgili **%1** sonuç bulundu.\nTarayıcıda görüntülemek için [buraya](%2) tıklayın.\n\nArama fonksiyonu yapım aşamasındadır.",
+    "artstation_data_error" : "Veri çekme işleminde bir hata oluştu.",
+
+    "coub_required_url_or_category" : "Coub video bağlantısını girmelisiniz veya kategori seçmelisiniz.",
+    "coub_processing_video" : "**Coub videosu** hazırlanıyor. Hazır olduğunda yüklenecek.",
+    "coub_nsfw_video" : "Bu video sadece nsfw paylaşımına izin verilen kanala yüklenebilir.",
+    "coub_unvaild_url" : "Coub video bağlantısı geçersiz.",
+    "coub_file_uploaded" : "Coub dosyası yüklendi.",
+
+    "pinterest_invaild_url" : "Geçerli bir Pinterest bağlantısı girmelisiniz.",
+    "pinterest_error_pwsdata" : "Siteden veri çekilirken hata oluştu.",
+
+    "reddit_required_url" : "Reddit bağlantısı yazmanız gereklidir.",
+    "reddit_cannot_upload" : "Reddit videosu indirilemedi veya dosya boyutu yüksek olduğu için yüklenemedi.",
+    "reddit_notfound_video" : "Reddit bağlantısında video bulunamadı.",
+    "reddit_data_error" : "<@%0>, veri çekme işleminde bir hata oluştu.",
+
+    "tiktok_invaild_url" : "Geçerli bir TikTok bağlantısı girmelisiniz.",
+    "tiktok_error_data" : "Siteden veri çekilirken hata oluştu.",
+
+    "ytshorts_invaild_url" : "Geçerli bir YouTube Shorts bağlantısı girmelisiniz.",
+    "ytshorts_error_data" : "Siteden veri çekilirken hata oluştu.",
+
+    "twitter_notfound_media" : "Bu bağlantıdaki medyaya erişilemedi.",
+    "twitter_already_processing" : "Belirttiğiniz bağlantı şu anda işlenmektedir. Lütfen tekrar işlem yapmayınız.",
+    "twitter_unvaild_url" : "Geçerli bir bağlantı girmeniz gerekmektedir.",
+
+    "dice_desc" : "20 yüzlü bir zar. Şansın iyidir umarım.",
+    "dice_max" : "<@${message.author.id}>, aynı anda en fazla %0 zar atabilirsin.",
+    "dice_result" : "<@${message.author.id}> için **%0** defa 20'lik zar atıldı.\n%1",
+
+    "kasar_min" : "Bu komutu kullanabilmek için __en az 3__ harf girmelisin.",
+    "kasar_max" : "Bu komutu kullanabilmek  için __en fazla 16__ harf girmelisin.",
+
+    "chess_desc" : "Satranç oyunu başlatır.",
+    "poker_desc" : "Poker oyunu başlatır.",
+    "youtube_desc" : "Birlikte youtube videosu izle.",
+
+    "avatar_desc" : "Avatar resmini ve bağlantısını gönderir.",
+    "serveravatar_desc" : "Sunucudaki özel avatar resmini ve bağlantısını gönderir.",
+    "serveravatar_notfound" : "<@${message.author.id}>, sunucuya özel avatar bulunamadı.",
+
+    "banner_desc" : "Banner resmini ve bağlantısını gönderir.",
+    "banner_notfound" : "<@${message.author.id}>, bannerın yok.",
+    "banner_userbanner_notfound" : "<@${message.author.id}>, kullanıcının bannerı yok.",
+
+    "emoji_desc" : "Belirtilen emojiyi getirir.",
+    "emoji_not_found" : "Emoji(ler) bulunamadı.",
+    "emoji_buttontime_over" : "Butona tıklama süresi geçti.",
+
+    "invite_desc" : "Botu sunucunuza eklemek için davet bağlantısını gönderir.",
+    "invite_label" : "Davet Et",
+
+    "ping_desc" : "Gecikme pingini gösterir.",
+    "ping_getting_value" : "Ping değerleri alınıyor...",
+    "ping_value_received" : "Ping değerleri alındı!",
+    "ping_api_delay" : "API Gecikmesi",
+
+    "stats_desc" : "Bot durum bilgisini gösterir.",
+    "stats_results" : "Sunucu Sayısı: **%0**\nKullanıcı Sayısı: **%1**",
+
+    "restart_desc" : "Botu yeniden başlatır.",
+    "restart_restarting_bot" : "Bot yeniden başlatılıyor...",
+
+    "scmd_desc" : "Bir sunucudaki tüm eğik çizgi komutlarını siler veya günceller.",
+    "scmd_args" : "Gerekli argümanlar girilmedi. (update/delete)",
+    "scmd_error" : "İşlem yapılırken hata oluştu.",
+    "scmd_delete" : "Sunucudaki komutlar başarıyla silindi.",
+    "scmd_update" : "Sunucudaki komutlar başarıyla güncellendi.",
+
+    "eval_desc" : "eval command",
+    "guilds_desc" : "Botun hangi sunucularda olduğunu gösterir.",
+
+    "survey_desc" : "Otomatik olarak bir anket hazırlar.",
+    "survey_title" : "Anket",
+    "survey_required_args" : "<@${message.author.id}>, anket oluşturmak için **${process.env.prefix}anket oluştur**",
+    "survey_max_item" : "Oylanacak anket seçeneklerini giriniz.\nMaksimum girilebilecek seçenek sayısı: **9**\nAnketi tamamlamak için **${process.env.prefix}anket tamamla**",
+    
+    "ban_desc" : "Bir kullanıcıyı sunucudan yasaklar.",
+    "ban_user_required" : "<@${message.author.id}>, herhangi bir kişiyi etiketlemedin.",
+    "ban_hierarchy" : "<@${message.author.id}>, bu kullanıcıyı yasaklayamazsın.",
+    "ban_banned_user" : "<@${member.id}>, Discord sunucusundan yasaklandı. Yasaklayan: <@${message.author.id}>",
+    "ban_banned_user_with_reason" : "<@${member.id}>, Discord sunucusundan yasaklandı. Yasaklayan: <@${message.author.id}>\nYasaklanma sebebi: **%0**",
+
+    "unban_desc" : "Sunucudan yasaklanmış bir kullanıcının yasağını kaldırır.",
+    "unban_id_required" : "Bir **kullanıcı id** girmelisiniz.",
+    "unban_id_incorrect" : "Girdiğiniz **kullanıcı id** yanlış.",
+    "unban_user_not_banned" : "Kullanıcı bulundu ancak yasaklı değil.",
+    "unban_user_unbanned" : "<@%0> discord kullanıcısının yasağını <@${message.author.id}> kaldırıldı.",
+
+    "kick_desc" : "Bir kullanıcıyı sunucudan atar.",
+    "kick_user_required" : "<@${message.author.id}>, herhangi bir kişiyi etiketlemedin.",
+    "kick_hierarchy" : "<@${message.author.id}>, bu discord kullanıcısını atamazsın.",
+    "kick_kicked_user" : "<@${member.id}>, discord sunucusundan atıldı. Atan yetkili: <@${message.author.id}>",
+    "kick_kicked_user_with_reason" : "<@${member.id}>, discord sunucusundan atıldı. Atan yetkili: <@${message.author.id}>\nSunucudan atılma sebebi: **%0**",
+
+    "tokenkick_desc" : "Belirli bir kullanıcı davetinden gelen kullanıcıları sunucudan atar.",
+    "tokenkick_kicked_user" : "<@%0>, Discord sunucusundan atıldı. Atan yetkili: <@${message.author.id}>",
+    "tokenkick_reason" : "Token sebebiyle atıldı.",
+
+    "tokenban_desc" : "Belirli bir kullanıcı davetinden gelen kullanıcıları sunucudan yasaklar.",
+    "tokenban_banned_user" : "<@%0>, discord sunucusundan yasaklandı. Yasaklayan: <@${message.author.id}>",
+    "tokenban_reason" : "Token sebebiyle yasaklandı.",
+
+    "prunexp_desc" : "Belirttiğiniz xp değerinden düşük değere sahip kullanıcıları getirir.",
+    "prunexp_xp_required" : "<@${message.author.id}>, xp değeri girin.",
+
+    "options_desc" : "Bot seçeneklerini özelleştirin.",
+    "options_help_title_info" : "**Bilgilendirme**",
+    "options_help_title_channel" : "**Kanal Ayarları**",
+    "options_help_title_guild" : "**Sunucu Ayarları**",
+    "options_help_desc_info" : "Bot ayarını değiştirmek için: **${process.env.prefix}opts** <**ayar adı**> <**değer**>\nBot ayarını tamamen silmek için: **${process.env.prefix}opts delete** <**ayar adı**>",
+    "options_help_desc_channel" : "**${process.env.prefix}opts joinchannel** <kanal>\n**${process.env.prefix}opts leavechannel** <kanal>",
+    "options_help_desc_guild" : "**${process.env.prefix}opts lang** _en,tr_\n**${process.env.prefix}opts levelmsg** _true,false_",
+    "options_arg_required" : "<@${message.author.id}>, komut için gereken argümanlar girilmedi.\nYardım: **${process.env.prefix}opts help**",
+    "options_channel_required" : "Herhangi bir kanal belirtmediniz. Örnek <kanal>",
+    "options_channel_notfound" : "Bu **ID** ile eşelen herhangi bir kanal bulunamadı.",
+    "options_channel_set" : "**%0** ayarı için <#%1> kanalı ayarlandı.",
+    "options_channel_already_set" : "**%0** ayarı için <#%1> kanalı daha önceden ayarlanmış.",
+    "options_channel_updated" : "**%0** ayarı başarıyla güncellendi.",
+    "options_set" : "Sunucu için '**%0**' ayarı, '**%1**' olarak ayarlandı.",
+    "options_delete_notfound" : "**%0** ayarı için bir veri bulunamadı.",
+    "options_delete_successful" : "**%0** ayarı başarıyla silindi.",
+    "options_guild_opts_not_set" : "Sunucu ile ilgili herhangi bir ayar bulunamadı.",
+
+    "rank_desc" : "Sunucudaki güncel rankı gösterir.",
+    "rank_user_title" : "Kullanıcı: %0",
+
+    "music_play_desc" : "Müzik çalma komutu.",
+    "music_queue_desc" : "Müzik kuyruğunun listesini alın..",
+    "music_pause_desc" : "Müzik durdurma komutu.",
+    "music_skip_desc" : "Müzik geçme komutu.",
+    "music_loop_desc" : "Müziği döngüye alma komutu.",
+    "music_leave_desc" : "Botu ses kanalından atar.",
+
+    "music_playing" : "%0 - Şu anda oynatılıyor",
+    "music_added_queue" : "Sıraya eklendi",
+    "music_member_must_connect_vc" : "Komutu kullanmak için ses kanalına giriş yapmalısın.",
+    "music_permission_required" : "Konuşmak için yetkim yok.",
+    "music_required_query" : "Şarkı bağlantısı (youtube) veya şarkı ismi yazmalısın.",
+    "music_cannot_played" : "Belirtilen şarkı oynatılamıyor.",
+    "music_member_same_vc_with_bot" : "Bu işlemi yapmak için botun aktif olarak bulunduğu ses kanalına bağlanmalısın.",
+    "music_not_playing" : "Şu anda oynatılan bir şarkı yok",
+    "music_empty_queue" : "Sırada şarkı olmadığı için geçilemiyor.",
+    "music_playing_empty_queue" : "Sırada bekleyen şarkı yok. Oynatılan şarkıyı durdurmak için ${process.env.prefix}pause",
+    "music_bot_must_in_vc" : "Şu anda ses kanalına bağlı değilim.",
+    "music_playlist_added_queue" : "Playlist şarkıları sıraya eklendi.",
+    "music_playlist_added_queue_desc" : "Sıradaki şarkıları görmek için **${process.env.prefix}queue** komutunu kullanabilirsiniz.",
+    "music_no_queue" : "Sırada şarkı yok.",
+    "music_current_song" : "ŞU ANKİ ŞARKI:",
+
+    "top_desc" : "Discord sunucusunun level sıralaması.",
+    "top_list_number" : "Geçerli bir liste numarası girmediğiniz için liste getirilemedi.",
+    "top_title" : "${message.guild.name} TOP 10",
+    "top_empty_list" : "Bu sayfa şu anlık boş.",
+    "top_footer" : "Sonraki liste için ${process.env.prefix}top %0"
+
+}

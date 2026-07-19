@@ -1,0 +1,14 @@
+/.vscode
+/.env
+/node_modules
+/package-lock.json
+/start.bat
+/start.sh
+/data/coub/*
+/data/reddit/*
+/data/twitter/*
+/data/pinterest/*
+/data/tiktok/*
+/data/ytshorts/*
+/commands/stats/cache/*
+/logs/errors/*.log
